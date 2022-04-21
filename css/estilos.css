@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    background: #c0c0c0;
+}
+body{
+    height: 750px;
+    width: 900px;
+    background: orangered;
+    margin: auto;
+}
+nav{
+    height:  50px;
+    background: rgb(192, 204, 134);
+
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+header{
+    height: 250px;
+    width: 900px;
+    background: blue;
+}
+main{
+    height: 400px;
+    width: 900px;
+    background: blueviolet;
+}
+#menu{
+    list-style-type: none;
+    height: 400px;
+    width: 200px;
+    background: rgb(223, 211, 211);
+    float: left;
+}
+#menu li{
+    list-style-type: none;
+    
+
+}
+#menu li a{
+    text-decoration: none;
+    color: blue;
+    padding: 15px;
+    display: block;
+    
+}
+article{
+    height: 400px;
+    height: 350;
+    background: rgb(61, 53, 53);
+
+}
+article h2, p{
+    color: aliceblue;
+    font-family: 'calibri';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    height: 50px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer h2{
+color: azure;
+
+
+
+}
+
+.form-register{
+  
+    width: 895px;
+    height: 400px;
+    background: #060901c2;
+    padding: 2px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: rgb(220, 199, 199);
+    box-shadow: 7px 13px 37px #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.controls{
+    width: 55%;
+    background: 240301cm;
+    padding: 1px;
+    border-radius: 10px;
+    margin-bottom: 11px;
+    border: 1px solid #1f53c1;
+    font-family:  'calibri';
+    font-size: 20px;
+    color: blanchedalmond;
+
+}
+
+.form-register a:hover {
+    color:  rgb(204, 26, 26);
+    text-decoration: underLine;
+}
+.form-register .botons {
+    width: 45%;
+    background:  #1f53c5;
+    border:  none;
+    padding:  12px;
+    color: rgb(206, 104, 104);
+    margin: 16px 0;
+    font-size:  16px;
+}
+#tb{
+    width: 100%;
+
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse ;
+    background-color: antiquewhite;
+}
+th, td{
+    padding: 10px;
+}
+th{
+    text-align: left;
+}
